@@ -1,4 +1,4 @@
-#include "solve2.h"
+#include "solve2.hpp"
 bool process2(matrix& m, int col, int line);
 int solve2(matrix& m)
 {

@@ -1,4 +1,4 @@
-#include "solve1.h"
+#include "solve1.hpp"
 typedef std::vector<std::string> matrix;
 std::string mark = "XMAS";
 std::vector<std::pair<int, int>> dx_dy = std::vector<std::pair<int, int>>

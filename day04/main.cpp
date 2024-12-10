@@ -2,8 +2,8 @@
 #include <cstdio>
 #include <vector>
 #include <algorithm>
-#include "solve1.h"
-#include "solve2.h"
+#include "solve1.hpp"
+#include "solve2.hpp"
 
 typedef std::vector<std::string> matrix;
     
