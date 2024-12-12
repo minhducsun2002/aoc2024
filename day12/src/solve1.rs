@@ -115,6 +115,9 @@ fn dig(v: &Vec<&str>, matrix: &mut Vec<Vec<i32>>, id: i32, key: char, start_line
     }
 }
 
+/// Access a matrix like `v[line][col]`, and set the according char if access was successful.
+///
+/// Returns true if successful, false otherwise. This function can be used to check if the read was out of bounds.
 pub(crate) fn access(v: &Vec<&str>, line: i32, col: i32, out: &mut char) -> bool {
     let line_count = v.len();
     let col_count = v[0].len();
